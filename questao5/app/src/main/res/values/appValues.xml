@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnSet">Finalizar Pedido</string>
+    <string name="appText1">Escolha os sabores:</string>
+    <string name="appText2">Tamanho da pizza:</string>
+    <string name="appText3">Forma de pagamento:</string>
+
+    <color name="appColor1">#B3B3B3</color>
+    <color name="appColor2">#292626</color>
+    <color name="appColor3">#FFFFFF</color>
+
+</resources>

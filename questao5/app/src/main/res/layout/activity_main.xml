@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor3">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logoPizza"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/pizza_logo"
+            android:contentDescription="Logo da Pizza"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appText1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/appColor2"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/cbCalabresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calabresa"
+            android:textColor="@color/appColor2" />
+
+        <CheckBox android:id="@+id/cbMarguerita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marguerita"
+            android:textColor="@color/appColor2" />
+
+        <CheckBox android:id="@+id/cbPortuguesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portuguesa"
+            android:textColor="@color/appColor2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appText2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/appColor2"
+            android:layout_marginTop="24dp" />
+
+        <RadioGroup
+            android:id="@+id/groupTamanho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/rbPequena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pequena - R$20"
+                android:textColor="@color/appColor2" />
+
+            <RadioButton android:id="@+id/rbMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Média - R$30"
+                android:textColor="@color/appColor2" />
+
+            <RadioButton android:id="@+id/rbGrande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grande - R$40"
+                android:textColor="@color/appColor2" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appText3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/appColor2"
+            android:layout_marginTop="24dp" />
+
+        <RadioGroup
+            android:id="@+id/groupPagamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/rbDinheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinheiro"
+                android:textColor="@color/appColor2" />
+
+            <RadioButton android:id="@+id/rbCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartão"
+                android:textColor="@color/appColor2" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/appColor2"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSet"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/appColor2"
+            android:textColor="@color/appColor3" />
+
+    </LinearLayout>
+</ScrollView>
