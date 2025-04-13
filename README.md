@@ -43,5 +43,5 @@ App em uma única tela para escolha de sabores (múltiplos via CheckBox), tamanh
 ## 🔧 Como Executar
 1. **Clone o repositório**:
    ```bash
-   [git clone https://github.com/1500341276/IMC-Calculator.git]
+   [git clone https://github.com/1500341276/NI---Entrega-2.git]
 
