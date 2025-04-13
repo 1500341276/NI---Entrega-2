@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_iniciar">Iniciar Cadastro</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_voltar">Voltar ao Início</string>
+    <string name="hint_nome">Digite seu nome</string>
+
+
+    <color name="appColor1">#B3B3B3</color>
+    <color name="appColor2">#292626</color>
+    <color name="appColor3">#FFFFFF</color>
+
+</resources>
