@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainResumo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/appColor3">
+
+    <ImageView
+        android:id="@+id/imgResumo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/pedido_concluido"
+        android:contentDescription="Pedido Concluído" />
+
+    <TextView
+        android:id="@+id/textMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seu pedido foi registrado com sucesso!"
+        android:textSize="18sp"
+        android:textColor="@color/appColor2"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textResumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumo do Pedido:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/appColor1"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="16sp"
+        android:textColor="@color/appColor2"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSet3"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/appColor2"
+        android:textColor="@color/appColor3" />
+</LinearLayout>

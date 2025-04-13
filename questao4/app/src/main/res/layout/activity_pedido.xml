@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainPedido"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/appColor3">
+
+    <ImageView
+        android:id="@+id/imgPedido"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pedido_icon"
+        android:contentDescription="Imagem de pedido" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome:"
+        android:textSize="16sp"
+        android:textColor="@color/appColor2"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/appEditText2"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/appColor2"
+        android:backgroundTint="@color/appColor1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha seu lanche:"
+        android:textSize="16sp"
+        android:textColor="@color/appColor2"
+        android:layout_marginTop="24dp" />
+
+    <RadioGroup
+        android:id="@+id/groupLanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/rbHamburguer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hambúrguer Tradicional"
+            android:textColor="@color/appColor2" />
+
+        <RadioButton
+            android:id="@+id/rbXsalada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X-Salada"
+            android:textColor="@color/appColor2" />
+
+        <RadioButton
+            android:id="@+id/rbVegano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegano"
+            android:textColor="@color/appColor2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSet2"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/appColor2"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold" />
+</LinearLayout>

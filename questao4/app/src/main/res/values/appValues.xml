@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnSet1">Fazer Pedido</string>
+    <string name="appEditText2">Seu nome</string>
+    <string name="btnSet2">Confirmar Pedido</string>
+    <string name="btnSet3">Voltar ao Início</string>
+
+    <color name="appColor1">#B3B3B3</color>
+    <color name="appColor2">#292626</color>
+    <color name="appColor3">#FFFFFF</color>
+
+</resources>

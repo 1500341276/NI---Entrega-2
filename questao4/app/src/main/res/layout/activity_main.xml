@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/appColor3">
+
+    <ImageView
+        android:id="@+id/logoLanche"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:contentDescription="Logo da lanchonete"
+        android:src="@drawable/logo_lanchefacil" />
+
+    <TextView
+        android:id="@+id/textApresentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Lanche Fácil!"
+        android:textSize="20sp"
+        android:textColor="@color/appColor2"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnIniciarPedido"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/appColor2"
+        android:text="@string/btnSet1"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold" />
+</LinearLayout>
